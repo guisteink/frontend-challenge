@@ -24,11 +24,16 @@ Feel free to design it by yourself, no design requirements but try to do your be
 
 # API
 Use the PokeAPI API to recover the data that will be shown on the app.
-(https://pokeapi.co/)
+
+https://pokeapi.co/
+
 Here's an example how to use it: 
 
-const query = 'Bulbasaur';
+```
+const query = 'Bulbasaur'; 
 fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
+```
+
 NOTE: You can use the form of calling apis of your choice (Fetch, Axios, etc).
 
 # Delivery
